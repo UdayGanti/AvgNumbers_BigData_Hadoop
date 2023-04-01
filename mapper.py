@@ -9,4 +9,4 @@ for line in sys.stdin:
     
     # Convert the field to a float and emit it with a count of 1
     for field in fields:
-        print("{0}\t{1}\t{2}".format("total", float(field), 1))
+        print "{0}\t{1}\t{2}".format("total", float(field), 1)

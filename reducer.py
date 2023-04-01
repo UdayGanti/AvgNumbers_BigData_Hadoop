@@ -15,6 +15,7 @@ for line in sys.stdin:
     count += int(cnt)
 
 # Calculate the mean
-average = total / count
+mean = total / count
 
-print(average)
+# Emit the mean
+print mean
